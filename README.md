@@ -16,3 +16,12 @@ sum(a, b, function () {
     console.log('summation done!')
 })
 ```
+##
+ ⚡ <i><b>How to empty an array in JavaScript?</b></i>
+
+```go
+let array = [1,2,3,4,5];
+- array = [];
+- array.length = 0;
+- array.splice(0,array.length);
+```
