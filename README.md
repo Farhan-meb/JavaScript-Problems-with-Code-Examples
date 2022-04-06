@@ -1,6 +1,6 @@
 ##
  ⚡ <i><b>Explain what a callback function is and provide a simple example</b></i>
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer</b></summary><br />
 🌱 A callback function is a function that is passed to another function as an argument and is executed after some operation has been completed. Below is an example of a simple callback function that logs to the console after some operations have been completed. <br /> 
 
 ```go
@@ -19,7 +19,7 @@ sum(a, b, function () {
 
 ##
  ⚡ <i><b>How to empty an array in JavaScript?</b></i>
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answer</b></summary><br />
 
 ```go
 let array = [1,2,3,4,5];
@@ -32,8 +32,8 @@ let array = [1,2,3,4,5];
 
 ##
  ⚡ <i><b>Given a string, reverse each word in the sentence</b></i>
-<details><summary><b>Answer</b></summary>
-🌱 For example Welcome to this Javascript Guide! should be become emocleW ot siht tpircsavaJ !ediuG <br /> 
+<details><summary><b>Answer</b></summary><br />
+🌱 For example "Welcome to this Javascript Guide!" should become "emocleW ot siht tpircsavaJ !ediuG" <br /> 
 
 ```go
 let string = "Welcome to this Javascript Guide!";
