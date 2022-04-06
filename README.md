@@ -5,6 +5,10 @@
 
 <details><summary><b>Code Example</b></summary>
 ```ruby
+require 'simplabs/highlight'
+Simplabs::Highlight.highlight(:ruby, 'class Test; end')
+```
+<!-- ```ruby
 <b>
 const sum = (a, b, callback) => {
 
@@ -21,4 +25,4 @@ sum(a, b, function () {
 
 })
 </b>
-```
+``` -->
