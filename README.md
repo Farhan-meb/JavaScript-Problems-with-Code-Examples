@@ -29,3 +29,16 @@ let array = [1,2,3,4,5];
 4. while(arrayList.length) {arrayList.pop();}
 ```
 </details>
+
+##
+ ⚡ <i><b>Given a string, reverse each word in the sentence</b></i>
+<details><summary><b>Answer</b></summary>
+🌱 For example Welcome to this Javascript Guide! should be become emocleW ot siht tpircsavaJ !ediuG <br /> 
+
+```go
+let string = "Welcome to this Javascript Guide!";
+string = string.split('').reverse().join(''); //reverse full string
+string = string.split(' ').reverse().join(' '); //reverse words
+console.log(string); //print reversed string
+```
+</details>
