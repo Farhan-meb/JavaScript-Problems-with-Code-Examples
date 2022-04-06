@@ -5,20 +5,14 @@
 
 
 ```go
-<b>
 const sum = (a, b, callback) => {
-
     const sum = a + b;
-
     callback();
 }
 
 const a = 5, b = 6;
 
 sum(a, b, function () {
-
     console.log('summation done!')
-
 })
-</b>
 ```
