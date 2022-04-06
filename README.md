@@ -16,6 +16,8 @@ sum(a, b, function () {
     console.log('summation done!')
 })
 ```
+</details>
+
 ##
  ⚡ <i><b>How to empty an array in JavaScript?</b></i>
 <details><summary><b>Answer</b></summary>
@@ -26,3 +28,4 @@ let array = [1,2,3,4,5];
 3. array.splice(0,array.length);
 4. while(arrayList.length) {arrayList.pop();}
 ```
+</details>
