@@ -83,6 +83,11 @@ console.log(isPalindrome("MadAaaam")); //false
 ##
  ⚡ <i><b>Write a sum method which will work properly when invoked using either syntax below.</b></i>
 
+ ```go
+console.log(sum(2,3));   // Outputs 5
+console.log(sum(2)(3));  // Outputs 5
+```
+
 <details><summary><b>Answer</b></summary><br />
 
 ```go
