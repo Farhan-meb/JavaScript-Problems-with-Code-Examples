@@ -149,3 +149,18 @@ console.log(sum(2)(3));  // Outputs 5
 ```
 <b>With let you have a block scope and when used in the for loop you get a new binding for each iteration - i.e. the i in every setTimeout callback means a different variable, each of which has a different value: the first one is 0, the next one is 1 etc.</b>
 </details>
+
+##
+ ⚡ <i><b>What will be the output of the following code?</b></i>
+
+```go
+let text = "Hello world!";
+let result = text.slice(0, 5);
+```
+<details><summary><b>Answer</b></summary><br />
+
+```go
+Hello
+```
+<b>slice() extracts a part of a string and returns the extracted part.</b>
+</details>
