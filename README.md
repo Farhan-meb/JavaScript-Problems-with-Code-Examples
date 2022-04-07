@@ -42,3 +42,78 @@ string = string.split(' ').reverse().join(' '); //reverse words
 console.log(string); //print reversed string
 ```
 </details>
+
+##
+ ⚡ <i><b>Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome</b></i>
+<details><summary><b>Answer</b></summary><br />
+
+```go
+const isPalindrome = (string) => {
+    string = string.toLowerCase();
+    return (string === string.split('').reverse().join(''));
+}
+
+console.log(isPalindrome("MadAm")); //true
+console.log(isPalindrome("MadAaaam")); //false
+
+```
+</details>
+##
+ ⚡ <i><b>In what order will the numbers 1-4 be logged to the console when the code below is executed?</b></i>
+
+```go
+(function() {
+    console.log(1); 
+    setTimeout(function(){console.log(2)}, 1000); 
+    setTimeout(function(){console.log(3)}, 0); 
+    console.log(4);
+})();
+```
+<details><summary><b>Answer</b></summary><br />
+
+```go
+1
+4
+3
+2
+```
+</details>
+##
+ ⚡ <i><b>Write a sum method which will work properly when invoked using either syntax below.</b></i>
+
+<details><summary><b>Answer</b></summary><br />
+
+```go
+(function sum(x,y) {
+    if(y !== undefined){
+        return x+y;
+    }
+    else{
+        return function(y){
+            return x+y;
+        }
+    }
+})();
+```
+</details>
+##
+ ⚡ <i><b>What will be the output of the following code?</b></i>
+
+```go
+(function timer() {
+  for (var i=0; i<=5; i++) {
+    setTimeout(function clog() {console.log(i)}, i*1000);
+  }
+})();
+```
+<details><summary><b>Answer</b></summary><br />
+
+```go
+6
+6
+6
+6
+6
+6
+```
+</details>
