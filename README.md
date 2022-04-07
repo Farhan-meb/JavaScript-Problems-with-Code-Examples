@@ -58,6 +58,7 @@ console.log(isPalindrome("MadAaaam")); //false
 
 ```
 </details>
+
 ##
  ⚡ <i><b>In what order will the numbers 1-4 be logged to the console when the code below is executed?</b></i>
 
@@ -78,6 +79,7 @@ console.log(isPalindrome("MadAaaam")); //false
 2
 ```
 </details>
+
 ##
  ⚡ <i><b>Write a sum method which will work properly when invoked using either syntax below.</b></i>
 
@@ -96,6 +98,7 @@ console.log(isPalindrome("MadAaaam")); //false
 })();
 ```
 </details>
+
 ##
  ⚡ <i><b>What will be the output of the following code?</b></i>
 
@@ -115,5 +118,29 @@ console.log(isPalindrome("MadAaaam")); //false
 6
 6
 6
+<b>With var you have a function scope, and only one shared binding for all of your loop iterations - i.e. the i in every setTimeout callback means the same variable that finally is equal to 6 after the loop iteration ends.</b>
+```
+</details>
+
+##
+ ⚡ <i><b>What will be the output of the following code?</b></i>
+
+```go
+(function timer() {
+  for (let i=0; i<=5; i++) {
+    setTimeout(function clog() {console.log(i)}, i*1000);
+  }
+})();
+```
+<details><summary><b>Answer</b></summary><br />
+
+```go
+0
+1
+2
+3
+4
+5
+<b>With let you have a block scope and when used in the for loop you get a new binding for each iteration - i.e. the i in every setTimeout callback means a different variable, each of which has a different value: the first one is 0, the next one is 1 etc.</b>
 ```
 </details>
