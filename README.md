@@ -123,8 +123,8 @@ console.log(sum(2)(3));  // Outputs 5
 6
 6
 6
-<b>With var you have a function scope, and only one shared binding for all of your loop iterations - i.e. the i in every setTimeout callback means the same variable that finally is equal to 6 after the loop iteration ends.</b>
 ```
+<b>With var you have a function scope, and only one shared binding for all of your loop iterations - i.e. the i in every setTimeout callback means the same variable that finally is equal to 6 after the loop iteration ends.</b>
 </details>
 
 ##
@@ -146,6 +146,6 @@ console.log(sum(2)(3));  // Outputs 5
 3
 4
 5
-<b>With let you have a block scope and when used in the for loop you get a new binding for each iteration - i.e. the i in every setTimeout callback means a different variable, each of which has a different value: the first one is 0, the next one is 1 etc.</b>
 ```
+<b>With let you have a block scope and when used in the for loop you get a new binding for each iteration - i.e. the i in every setTimeout callback means a different variable, each of which has a different value: the first one is 0, the next one is 1 etc.</b>
 </details>
