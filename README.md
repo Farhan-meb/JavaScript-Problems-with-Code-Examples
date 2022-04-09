@@ -188,3 +188,24 @@ addSix(10);
 addSix(21);
 ```
 </details>
+
+##
+ ⚡ <i><b>Write a "mul" function which will properly when invoked as below syntax</b></i>
+
+```go
+console.log(mul(2)(3)(4)); // output : 24
+console.log(mul(4)(3)(4)); // output : 48
+```
+<details><summary><b>Answer</b></summary><br />
+
+```go
+function mul (x) {
+  return function (y) { // anonymous function
+    return function (z) { // anonymous function
+      return x * y * z;
+    };
+  };
+}
+```
+<b>Here mul function accept the first argument and return anonymous function which take the second parameter and return anonymous function which take the third parameter and return multiplication of arguments which is being passed in successive</b>
+</details>
