@@ -210,3 +210,22 @@ function mul (x) {
 <b>Here mul function accept the first argument and return anonymous function which take the second parameter and return anonymous function which take the third parameter and return multiplication of arguments which is being passed in successive</b>
 
 </details>
+
+##
+ ⚡ <i><b>Given two strings, return true if they are anagrams of one another</b></i>
+
+<details><summary><b>Answer</b></summary><br />
+
+```go
+const isAnagram = (str1, str2) => {
+  return (
+    str1.toLowerCase().split("").sort().join("") ===
+    str2.toLowerCase().split("").sort().join("")
+  );
+};
+
+console.log(isAnagram("Amar", "mraa"));     //true
+console.log(isAnagram("Amar", "mraab"));    //false
+
+```
+</details>
