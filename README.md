@@ -207,5 +207,8 @@ function mul (x) {
   };
 }
 ```
-#<b>Here mul function accept the first argument and return anonymous function which take the second parameter and return anonymous function which take the third parameter and return multiplication of arguments which is being passed in successive</b>
+ 
+```diff
+# <b>Here mul function accept the first argument and return anonymous function which take the second parameter and return anonymous function which take the third parameter and return multiplication of arguments which is being passed in successive</b>
+ ...
 </details>
